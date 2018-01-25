@@ -29,7 +29,7 @@ JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
 JUnit 5需要Java 8（或更高）的运行时环境。
 
 ## 2.3 Demo路径
-[src/test/java/junit5/Junit5DemoJunit5Demo](https://github.com/mindawei/TestDemos/blob/master/src/test/java/junit5/Junit5Demo.java) 把用户指南中的部分例子集合到了一起，其余例子可以去指南中查看。
+[src/test/java/junit5/Junit5Demo](https://github.com/mindawei/TestDemos/blob/master/src/test/java/junit5/Junit5Demo.java) 把用户指南中的部分例子集合到了一起，其余例子可以去指南中查看。
 
 ## 2.4 导入
 开发中：编译器是IDEA，仓库管理是gradle。需要在build.gradle中的dependencies 中加入依赖的库，如下所示。配置时参考了：[Junit 5 配置介绍](https://blog.codefx.org/libraries/junit-5-setup/) （maven 构建可以参考这篇文章中的问题部分）。
