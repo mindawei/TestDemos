@@ -2,6 +2,11 @@ TestDemos - 测试相关的简单使用例子
 ---
 
 # Junit 5
+## 一些资源
+* [JUnit 5 用户指南 英文](http://junit.org/junit5/docs/current/user-guide/#overview)
+* [JUnit 5 用户指南 中文](http://sjyuan.cc/junit5/user-guide-cn/)
+* [JUnit 5 交流网址](https://gitter.im/junit-team/junit5)
+
 ## Junit 5 介绍(摘自指南)
 JUnit 5 跟以前的JUnit版本不一样，它由几大不同的模块组成，这些模块分别来自三个不同的子项目。<br>
 JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
@@ -15,12 +20,6 @@ JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
 所有的核心注解都位于junit-jupiter-api模块的 org.junit.jupiter.api 包中。
 
 JUnit 5需要Java 8（或更高）的运行时环境。
-
-
-## 一些资源
-* [JUnit 5 用户指南 英文](http://junit.org/junit5/docs/current/user-guide/#overview)
-* [JUnit 5 用户指南 中文](http://sjyuan.cc/junit5/user-guide-cn/)
-* [JUnit 5 交流网址](https://gitter.im/junit-team/junit5)
 
 ## Demo路径
 [src/test/java/junit5/Junit5DemoJunit5Demo](https://github.com/mindawei/TestDemos/blob/master/src/test/java/junit5/Junit5Demo.java) 把用户指南中的部分例子集合到了一起，其余例子可以去指南中查看。
@@ -38,7 +37,7 @@ dependencies {
 }
 ```
 
-在Junit5介绍中提到了三个部分，但是这里只导入了一个包，其余部分应该是IDE会提供支持。
+在Junit5介绍中提到了Junit5由三个部分组成，但是这里只导入了一个包，其余部分应该是IDE会提供支持。
 
 
 
