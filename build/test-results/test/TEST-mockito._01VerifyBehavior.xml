@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mockito._01VerifyBehavior" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-25T04:17:39" hostname="DESKTOP-1GH8M00" time="2.134">
+  <properties/>
+  <testcase name="run" classname="mockito._01VerifyBehavior" time="2.134"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
