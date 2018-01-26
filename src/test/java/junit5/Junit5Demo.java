@@ -159,7 +159,7 @@ class Junit5Demo {
         });
 
         // 超时测试2，不输出超时时间
-        assertTimeoutPreemptively(ofMillis(10), () -> {
+        assertTimeoutPreemptively(ofMillis(100), () -> {
             // Thread.sleep(100);
         });
 
