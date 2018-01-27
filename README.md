@@ -86,7 +86,14 @@ dependencies {
 ## 3.5 库最近变化
 [mockito开发者博客](https://www.linkedin.com/pulse/mockito-vs-powermock-opinionated-dogmatic-static-mocking-faber/)中提到：2017年夏天，作者们开始觉得需要提供一个更好的API，从而与Powermock更好地协作。新的API不是为那些想进行单元测试的人准备的，而是为想进行测试工具开发的人准备的（可以理解为：新版本主要是底层机制变化，方便二次开发，用户看到的新功能不是很多）。
 
+# 4 PowerMock
+## 4.1 一些资源
+* [PowerMock项目](https://github.com/powermock/powermock)
+* [单元测试之Mockito与PowerMock](https://www.jianshu.com/p/51930cc5dcf9)
 
+## 4.2 PowerMock 介绍
+以下摘自[单元测试之Mockito与PowerMock](https://www.jianshu.com/p/51930cc5dcf9)。
+> Mockito提供了可读性较强、易于使用的mocking测试方法，而PowerMock提供了Mockito-like API是它使用方法基本与Mockito有很大类似，且它能解决静态方法、私有方法等“问题方法” 。
 
 
 
